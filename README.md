@@ -33,7 +33,7 @@ Use express sessions to save data to the session using a `POST` endpoint and acc
 ### App 8 - Middleware
 - Create a top-level middleware function that is used on every request (keyword `USE`). This function can be as simple as logging something to the console.
   - Create two endpoints to test that your middleware function runs on every request and that the endpoints work properly.
-  
+
 ### App 9 - Middleware 2
 - Create middleware that looks in the query for a parameter called `token` and checks if it's in the valid tokens array. End if it is not and next if it is.
 - Apply that middleware to all routes dealing with `admin` things.
